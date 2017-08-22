@@ -1,0 +1,14 @@
+{
+  "map-version" : "1.0",
+  "mapimage" : "textures/terrain/terrain.png",
+  "player1" : {
+    "carimage" : "textures/car/car_blue.png",
+    "spawnlocation" : [450,300],
+    "size" : [50,50]
+  },
+  "player2" : {
+    "carimage" : "textures/car/car_red.png",
+    "spawnlocation" : [550, 300],
+    "size" : [50,50]
+  }
+}
