@@ -17,7 +17,19 @@ clock = pygame.time.Clock()
 car1 = player.Player(*maploader.get_player_info(1), texture.car1)
 car2 = player.Player(*maploader.get_player_info(2), texture.car2)
 
+def countdown():
+    for i in reversed(range(1,4)):
+        text = maploader.get_font().render(str(i), True, colors.red)
+        window.blit(texture.background, (0, 0))
+        car1.show(window)
+        car2.show(window)
+        window.blit(text, (550, 150))
+        pygame.display.update()
+        pygame.time.wait(1000)
+
 def main():
+
+    countdown()
 
     while True:
 

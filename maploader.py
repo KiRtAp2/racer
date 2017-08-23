@@ -1,4 +1,7 @@
 import sys
+
+import pygame
+
 import settings
 import json
 from utils import supported
@@ -8,6 +11,11 @@ selected_map = settings.map_file
 map_file = open(selected_map, "r", encoding="utf-8")
 
 map_info = json.load(map_file)
+
+if not pygame.font.get_init():
+    pygame.font.init()
+
+map_font = pygame.font.SysFont(map_info["font-name"], 70)
 
 if not supported(map_info["map-version"]):
     print("MAP INCOMPATIBLE")
@@ -30,3 +38,6 @@ def get_starting_orientation():
 
 def get_rotation_speed():
     return map_info["rotation-speed"]
+
+def get_font():
+    return map_font

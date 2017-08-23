@@ -3,6 +3,6 @@
   "window-height" : 800,
   "framerate" : 30,
   "map-file" : "map.racermap",
-  "current-map-version" : "1.1",
+  "current-map-version" : "1.2",
   "debug" : false
 }

@@ -1,5 +1,5 @@
 {
-  "map-version" : "1.1",
+  "map-version" : "1.2",
   "mapimage" : "textures/terrain/terrain.png",
   "player1" : {
     "carimage" : "textures/car/car_blue.png",
@@ -13,5 +13,6 @@
   },
   "player-velocity" : 4,
   "starting-orientation" : 0,
-  "rotation-speed" : 5
+  "rotation-speed" : 5,
+  "font-name" : "monospace"
 }

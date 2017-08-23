@@ -11,3 +11,7 @@ def supported(version):
         if vminor > mvminor:
             return False
     return True
+
+def show_text(text: str, font, position: tuple, color: tuple, window):
+    text_field = font.render(text, True, color)
+    window.blit(text_field, position)

@@ -11,3 +11,6 @@ v1.1:
     + "player-velocity" : int, how fast players move
     + "starting-orientation" : int, the direction players are looking when game loads in degrees, range: -180 to 180
     + "rotation-speed" : int, how many degrees players rotate in one frame if holding a key
+
+v1.2:
+    + "font-name" : str, name of font
