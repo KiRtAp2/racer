@@ -12,3 +12,5 @@ framerate = settings["framerate"]
 map_file = settings["map-file"]
 
 map_version = settings["current-map-version"]
+
+debug = settings["debug"]

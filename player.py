@@ -1,23 +1,22 @@
 import math
 import pygame
-
 import base_class
 from pygame.transform import rotate
-
+import maploader
 import settings
 import texture
 
 
 class Player(base_class.Base):
 
-    orientation = 0 # degrees
-    rotation_speed = 5
+    orientation = maploader.get_starting_orientation() # degrees
+    rotation_speed = maploader.get_rotation_speed()
+    velocity = maploader.get_player_velocity()
     rotating_direction = 0
     # rotating_direction:
     # 0 - no rotation
     # 1 - right
     # -1 - left
-    velocity = 2
     
     def __init__(self, pos, size, image):
         self.image = image

@@ -38,6 +38,9 @@ def main():
                 if event.key == pygame.K_d:
                     car2.rotate(1)
 
+                # if event.key == pygame.K_f and settings.debug:
+                #     pygame.
+
             if event.type == pygame.KEYUP:
                 if event.key in (pygame.K_RIGHT, pygame.K_LEFT):
                     car1.stop_rotating()

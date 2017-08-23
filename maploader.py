@@ -21,3 +21,12 @@ def get_player_images():
 
 def get_player_info(num):
     return (map_info["player"+str(num)]["spawnlocation"], map_info["player"+str(num)]["size"])
+
+def get_player_velocity():
+    return map_info["player-velocity"]
+
+def get_starting_orientation():
+    return map_info["starting-orientation"]
+
+def get_rotation_speed():
+    return map_info["rotation-speed"]

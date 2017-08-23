@@ -1,0 +1,13 @@
+v1.0:
+    + "map-version" : version
+    + "mapimage" : path to background image file, 1200 by 800 px
+    + "player1" : JSON Object:
+        + "carimage" : path to image of player
+        + "spawnlocation" : list containing x and y where the player spawns
+        + "size" :  list of size x and size y of image, in pixels
+    + "player2" : JSON Object, same as player1
+
+v1.1:
+    + "player-velocity" : int, how fast players move
+    + "starting-orientation" : int, the direction players are looking when game loads in degrees, range: -180 to 180
+    + "rotation-speed" : int, how many degrees players rotate in one frame if holding a key

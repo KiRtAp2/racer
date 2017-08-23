@@ -1,5 +1,5 @@
 {
-  "map-version" : "1.0",
+  "map-version" : "1.1",
   "mapimage" : "textures/terrain/terrain.png",
   "player1" : {
     "carimage" : "textures/car/car_blue.png",
@@ -10,5 +10,8 @@
     "carimage" : "textures/car/car_red.png",
     "spawnlocation" : [550, 300],
     "size" : [50,50]
-  }
+  },
+  "player-velocity" : 4,
+  "starting-orientation" : 0,
+  "rotation-speed" : 5
 }
