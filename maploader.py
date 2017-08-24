@@ -41,3 +41,11 @@ def get_rotation_speed():
 
 def get_font():
     return map_font
+
+def valid_position(x, y, sx, sy):
+    valid = False
+    for l in map_info["trajectory"]:
+        if l[0] < x and x+sx < l[0]+l[2]:
+            if l[1] < y and y+sy < l[1]+l[3]:
+                valid = True
+    return valid

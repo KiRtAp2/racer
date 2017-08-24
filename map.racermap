@@ -1,18 +1,26 @@
 {
-  "map-version" : "1.2",
+  "map-version" : "2.0",
   "mapimage" : "textures/terrain/terrain.png",
   "player1" : {
     "carimage" : "textures/car/car_blue.png",
-    "spawnlocation" : [450,300],
+    "spawnlocation" : [480,124],
     "size" : [50,50]
   },
   "player2" : {
     "carimage" : "textures/car/car_red.png",
-    "spawnlocation" : [550, 300],
+    "spawnlocation" : [557, 124],
     "size" : [50,50]
   },
   "player-velocity" : 4,
-  "starting-orientation" : 0,
+  "starting-orientation" : -90,
   "rotation-speed" : 5,
-  "font-name" : "monospace"
+  "font-name" : "monospace",
+  "trajectory" : [
+    [274,82,871,117],
+    [1004,70,183,682],
+    [34,614,1138,153],
+    [43,328,174,429],
+    [64,268,330,174],
+    [256,79,162,363]
+  ]
 }

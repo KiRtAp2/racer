@@ -38,6 +38,10 @@ class Player(base_class.Base):
         self.x += self.dx
         self.y += self.dy
 
+        if not maploader.valid_position(self.x, self.y, self.sx, self.sy):
+            self.x -= self.dx
+            self.y -= self.dy
+
 
     def tick(self, window):
         if self.rotating_direction == 1:

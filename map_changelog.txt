@@ -14,3 +14,6 @@ v1.1:
 
 v1.2:
     + "font-name" : str, name of font
+
+v2.0:
+    + "trajectory" : list, containing lists: [x, y, sx, sy]. This is where cars are allowed to move
