@@ -1,0 +1,31 @@
+{
+  "map-version" : "2.0",
+  "mapimage" : "textures/map2/terrain/terrain.png",
+  "player1" : {
+    "carimage" : "textures/map2/car/car_black.png",
+    "spawnlocation" : [950,650],
+    "size" : [30,30]
+  },
+  "player2" : {
+    "carimage" : "textures/map2/car/car_red.png",
+    "spawnlocation" : [1050, 650],
+    "size" : [30,30]
+  },
+  "player-velocity" : 5,
+  "starting-orientation" : 180,
+  "rotation-speed" : 6,
+  "font-name" : "elephant",
+  "trajectory" : [
+    [73,83,1067,115],
+    [1017,74,128,363],
+    [531,323,624,138],
+    [476,267,116,200],
+    [195,217,382,176],
+    [195,229,130,400],
+    [196,511,680,149],
+    [51,652,837,119],
+    [45,59,139,707],
+    [653,547,213,223],
+    [923,366,197,412]
+  ]
+}

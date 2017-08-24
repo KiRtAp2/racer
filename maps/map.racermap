@@ -4,12 +4,12 @@
   "player1" : {
     "carimage" : "textures/car/car_blue.png",
     "spawnlocation" : [480,124],
-    "size" : [50,50]
+    "size" : [30,30]
   },
   "player2" : {
     "carimage" : "textures/car/car_red.png",
     "spawnlocation" : [557, 124],
-    "size" : [50,50]
+    "size" : [30,30]
   },
   "player-velocity" : 4,
   "starting-orientation" : -90,

@@ -2,7 +2,7 @@
   "window-width" : 1200,
   "window-height" : 800,
   "framerate" : 30,
-  "map-file" : "map.racermap",
+  "map-file" : "maps/litemap/litemap.racermap",
   "current-map-version" : "2.0",
   "debug" : false
 }

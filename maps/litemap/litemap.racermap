@@ -1,0 +1,24 @@
+{
+  "map-version" : "2.0",
+  "mapimage" : "maps/litemap/textures/terrain.png",
+  "player1" : {
+    "carimage": "textures/car/car_blue.png",
+    "spawnlocation": [170, 60],
+    "size": [30, 30]
+  },
+  "player2" : {
+    "carimage" : "textures/car/car_red.png",
+    "spawnlocation" : [230, 60],
+    "size" : [30,30]
+  },
+  "player-velocity" : 4,
+  "starting-orientation" : 90,
+  "rotation-speed" : 5,
+  "font-name" : "consolas",
+  "trajectory" : [
+    [65,44,1073,102],
+    [65,44,102,700],
+    [65,642,1073,102],
+    [1036,44,102,700]
+  ]
+}
